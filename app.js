@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3001;
 
 app.get('/', (req, res) => {
-    res.send("<html>Hello World !! This is ton site hosted from  node server<html>\n");
+    res.send("<html>Hello World !! This is ton site edited with ton dns hello.temp.ton hosted from  node server<html>\n");
 })
 
 app.listen(port, () => {
